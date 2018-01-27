@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>演示-普通内容列表</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/jeui-new.css"  media="all">
+    <link rel="stylesheet" href="css/skin/jebox.css"  media="all">
+    <link rel="stylesheet" href="css/skin/jedate.css"  media="all">
+    <script type="text/javascript" src="js/modules/jeui.js"></script>
+</head>
+<body>
+<div class="je-p20">
+    <div class="je-form-item je-mb10">
+        <div class="jecol-md-12 je-ingroup je-fl">
+            <span class="je-label je-f14">验证必填项</span>
+            <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+        </div>
+    </div>
+    <div class="je-form-item je-mb10">
+        <div class="jecol-md-6 je-ingroup je-fl">
+            <span class="je-label je-f14">必填项</span>
+            <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+        </div>
+        <div class="jecol-md-6 je-ingroup je-fl">
+            <span class="je-label je-f14">验证必填项</span>
+            <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+        </div>
+    </div>
+    <div class="je-form-item je-mb10">
+        <div class="jecol-md-4 je-ingroup je-fl">
+            <span class="je-label je-f14">验证必填项</span>
+            <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+        </div>
+        <div class="jecol-md-4 je-ingroup je-fl">
+            <span class="je-label je-f14">验证必填项</span>
+            <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+        </div>
+        <div class="jecol-md-4 je-ingroup je-fl">
+            <span class="je-label je-f14">验证必填项</span>
+            <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+        </div>
+    </div>
+    <blockquote class="je-quote green je-f16 je-ovh  je-mb10">
+        <div class="je-form-item je-mb10">
+            <div class="jecol-md-12 je-ingroup je-fl">
+                <span class="je-label je-f14">验证必填项</span>
+                <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+            </div>
+        </div>
+        <div class="je-form-item je-mb10">
+            <div class="jecol-md-6 je-ingroup je-fl">
+                <span class="je-label je-f14">必填项</span>
+                <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+            </div>
+            <div class="jecol-md-6 je-ingroup je-fl">
+                <span class="je-label je-f14">验证必填项</span>
+                <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+            </div>
+        </div>
+        <div class="je-form-item je-mb10">
+            <div class="jecol-md-4 je-ingroup je-fl">
+                <span class="je-label je-f14">验证必填项</span>
+                <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+            </div>
+            <div class="jecol-md-4 je-ingroup je-fl">
+                <span class="je-label je-f14">验证必填项</span>
+                <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+            </div>
+            <div class="jecol-md-4 je-ingroup je-fl">
+                <span class="je-label je-f14">验证必填项</span>
+                <input type="text" name="title" autocomplete="off" placeholder="请输入" class="je-input">
+            </div>
+        </div>
+    </blockquote>
+    <blockquote class="je-quote green je-f16 je-ovh  je-mb10">
+        <div class="je-form-item je-mb10 je-w100 checkbox">
+            <div class="je-fl je-mr10">
+                <span class="je-inblock je-f14">选择职位</span>
+            <select class="myselect">
+                <option value="交互设计11">交互设计11</option>
+                <option value="视觉设计22">视觉设计22</option>
+                <optgroup label="开发">
+                    <option value="前端开发">前端开发</option>
+                    <option value="后端开发" selected>后端开发</option>
+                </optgroup>
+                <option value="用户研究33">用户研究33</option>
+                <option value="产品经理44">产品经理44</option>
+            </select>
+            </div>
+            <div class="je-w15 je-ingroup je-fl je-mr10">
+            <input type="text" name="title" id="inpstart" placeholder="开始日期" readonly class="je-input je-pl5 je-pr5">
+            </div>
+            <div class="je-w15 je-ingroup je-fl je-mr10">
+            <input type="text" name="title" id="inpend" placeholder="结束日期" readonly class="je-input je-pl5 je-pr5">
+            </div>
+            <div class="je-w15 je-ingroup je-fl je-mr10">
+            <input type="text" name="title" autocomplete="off" placeholder="请输入关键字" class="je-input je-pl5 je-pr5">
+            </div>
+            <!--<input type="checkbox" name="checkbox" jename="checkbox" jetext="JavaScript">-->
+            <!--<input type="radio" name="radio" jename="radio" checked jetext="前端工程师">-->
+            <button class="je-btn je-btn-small je-btn-primary je-f14 je-dib"><i class="je-icon je-f20">&#xe603;</i> 查询</button>
+        </div>
+        <div class="je-form-item je-mb10">
+            <button class="je-btn je-btn-small je-btn-default je-f14" id="addart"><i class="je-icon je-f20">&#xe66e;</i> 添加文章</button>
+            <button class="je-btn je-btn-small je-btn-primary je-f14" id="addart2"><i class="je-icon je-f20">&#xe66e;</i> 添加文章02</button>
+            <button class="je-btn je-btn-small je-btn-success je-f14"><i class="je-icon je-f20">&#xe717;</i> 推荐文章</button>
+            <button class="je-btn je-btn-small je-btn-info je-f14"><i class="je-icon je-f20">&#xe62b;</i> 审核文章</button>
+            <button class="je-btn je-btn-small je-btn-warning je-f14"><i class="je-icon je-f20">&#xe63e;</i> 批量删除</button>
+            <button class="je-btn je-btn-small je-btn-danger je-f14"><i class="je-icon je-f20">&#xe63e;</i> 批量删除</button>
+        </div>
+    </blockquote>
+    <div class="je-form-item je-mb10 je-mr30">
+        <button class="je-btn je-btn-small je-btnline-default je-f14">添加文章</button>
+        <button class="je-btn je-btn-small je-btnline-primary je-f14" >添加文章02</button>
+        <button class="je-btn je-btn-small je-btnline-success je-f14">推荐文章</button>
+        <button class="je-btn je-btn-small je-btnline-info je-f14">审核文章</button>
+        <button class="je-btn je-btn-small je-btnline-warning je-f14">批量删除</button>
+        <button class="je-btn je-btn-small je-btnline-danger je-f14">批量删除</button>
+    </div>
+    <div class="je-btn-group je-mb10 je-mr10">
+        <button type="button" class="je-btn je-btn-small je-btn-outline je-btn-default je-f14">左边</button>
+        <button type="button" class="je-btn je-btn-small je-btn-outline je-btn-default je-f14">中间</button>
+        <button type="button" class="je-btn je-btn-small je-btn-outline je-btn-default je-f14">右边</button>
+    </div>
+    <div class="je-btn-group je-mb10">
+        <button type="button" class="je-btn je-btn-small je-btn-outline je-btn-default je-f14"><i class="je-icon je-f20">&#xe62e;</i> 编辑</button>
+        <button type="button" class="je-btn je-btn-small je-btn-outline je-btn-default je-f14"><i class="je-icon je-f20">&#xe605;</i> 回复</button>
+        <button type="button" class="je-btn je-btn-small je-btn-outline je-btn-default je-f14"><i class="je-icon je-f20">&#xe648;</i> 分享</button>
+    </div>
+    <table class="je-table je-mb20" id="newCheck">
+        <thead>
+        <tr>
+            <th><input type="checkbox" name="checkbox" id="gocheck" jename="chunk"></th>
+            <th align="left">商品ID</th>
+            <th>手机品牌</th>
+            <th>手机型号</th>
+            <th>是否出厂</th>
+            <th width="50%">备注</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td align="center"><input type="checkbox" name="checkbox" jename="chunk"></td>
+            <td>01</td>
+            <td>小米</td>
+            <td>小米5</td>
+            <td align="center"><input type="checkbox" name="checkboxswitch" jename="switch" small jetext="是,否"></td>
+            <td>手机备注手机备注手机备注</td>
+            <td align="center">
+                <button class="je-btn je-btn-mini je-btn-success je-f12">编辑</button> 
+                <button class="je-btn je-btn-mini je-btn-danger je-f12">删除</button>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><input type="checkbox" name="checkbox" jename="chunk"></td>
+            <td>02</td>
+            <td>华为</td>
+            <td>荣耀 NOTE 8</td>
+            <td align="center"><input type="checkbox" name="checkboxswitch" jename="switch" small checked jetext="是,否"></td>
+            <td>手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注手机备注</td>
+            <td align="center">
+                <button class="je-btn je-btn-mini je-btn-success je-f12">编辑</button>
+                <button class="je-btn je-btn-mini je-btn-danger je-f12">删除</button>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><input type="checkbox" name="checkbox" jename="chunk"></td>
+            <td>03</td>
+            <td>360</td>
+            <td>360N4A</td>
+            <td align="center"><input type="checkbox" name="checkboxswitch" jename="switch" small jetext="是,否"></td>
+            <td>手机备注手机备注手机备注</td>
+            <td align="center">
+                <button class="je-btn je-btn-mini je-btn-success je-f12">编辑</button>
+                <button class="je-btn je-btn-mini je-btn-danger je-f12">删除</button>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><input type="checkbox" name="checkbox" jename="chunk"></td>
+            <td>04</td>
+            <td>OPPO</td>
+            <td>OPPO r9</td>
+            <td align="center"><input type="checkbox" name="checkboxswitch" jename="switch" small checked jetext="是,否"></td>
+            <td>手机备注手机备注手机备注</td>
+            <td align="center">
+                <button class="je-btn je-btn-mini je-btn-success je-f12">编辑</button>
+                <button class="je-btn je-btn-mini je-btn-danger je-f12">删除</button>
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><input type="checkbox" name="checkbox" jename="chunk"></td>
+            <td>05</td>
+            <td>魅族</td>
+            <td>魅族 MX6</td>
+            <td align="center"><input type="checkbox" name="checkboxswitch" jename="switch" small jetext="是,否"></td>
+            <td>手机备注手机备注手机备注</td>
+            <td align="center">
+                <button class="je-btn je-btn-mini je-btn-success je-f12">编辑</button>
+                <button class="je-btn je-btn-mini je-btn-danger je-f12">删除</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="je-table je-mb20" skin="leftline" even>
+        <thead>
+        <tr>
+            <th>商品ID</th>
+            <th>手机品牌</th>
+            <th>手机型号</th>
+            <th>商品价格</th>
+            <th>备注</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>01</td>
+            <td>小米</td>
+            <td>小米5</td>
+            <td>1599</td>
+            <td>人生似修行</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>华为</td>
+            <td>荣耀 NOTE 8</td>
+            <td>2399</td>
+            <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>360</td>
+            <td>360N4A</td>
+            <td>799</td>
+            <td> Life is either a daring adventure or nothing.</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>OPPO</td>
+            <td>OPPO r9</td>
+            <td>2499</td>
+            <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>魅族</td>
+            <td>魅族 MX6</td>
+            <td>1599</td>
+            <td>猿强，则国强。国强，则猿更强！ </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="je-table" skin="noline" even>
+        <thead>
+        <tr>
+            <th>商品ID</th>
+            <th>手机品牌</th>
+            <th>手机型号</th>
+            <th>商品价格</th>
+            <th>备注</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>01</td>
+            <td>小米</td>
+            <td>小米5</td>
+            <td>1599</td>
+            <td>人生似修行</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>华为</td>
+            <td>荣耀 NOTE 8</td>
+            <td>2399</td>
+            <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>360</td>
+            <td>360N4A</td>
+            <td>799</td>
+            <td> Life is either a daring adventure or nothing.</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>OPPO</td>
+            <td>OPPO r9</td>
+            <td>2499</td>
+            <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>魅族</td>
+            <td>魅族 MX6</td>
+            <td>1599</td>
+            <td>猿强，则国强。国强，则猿更强！ </td>
+        </tr>
+        </tbody>
+    </table>
+
+    
+</div>
+<script type="text/javascript">
+    jeui.use(["jquery","jeBox","jeDate","jeCheck","jeSelect"],function () {
+
+        $("#addart").on("click",function(){
+            jeBox.open({
+                type: 'iframe',
+                boxSize: ['70%', '90%'],
+                maxBtn: true,
+                scrollbar: false,
+                content: 'news-add.html'
+            });
+        })
+        $("#addart2").on("click",function(){
+            jeBox.open({
+                type: 'iframe',
+                boxSize: ['70%', '90%'],
+                maxBtn: true,
+                scrollbar: false,
+                content: 'news-add2.html'
+            });
+        })
+        $(".myselect").jeSelect({sosList: false});
+        var start = {
+            format: 'YYYY-MM-DD hh:mm:ss',
+            minDate: '2014-06-16 23:59:59', //设定最小日期为当前日期
+            isinitVal:true,
+            //festival:true,
+            ishmsVal:false,
+            maxDate: $.nowDate({DD:0}), //最大日期
+            choosefun: function(elem, val, date){
+                end.minDate = date; //开始日选好后，重置结束日的最小日期
+                endDates();
+            }
+        };
+        var end = {
+            format: 'YYYY-MM-DD hh:mm:ss',
+            minDate: $.nowDate({DD:0}), //设定最小日期为当前日期
+            //festival:true,
+            maxDate: '2099-06-16 23:59:59', //最大日期
+            choosefun: function(elem, val, date){
+                start.maxDate = date; //将结束日的初始值设定为开始日的最大日期
+            }
+        };
+        //这里是日期联动的关键        
+        function endDates() {
+            //将结束日期的事件改成 false 即可
+            end.trigger = false;
+            $("#inpend").jeDate(end);
+        }
+        $('#inpstart').jeDate(start);
+        $('#inpend').jeDate(end);
+        $(".checkbox").jeCheck();
+        $(".checkbox").jeCheck({jename:"radio"});
+        $(".checkbox").jeCheck({jename:"switch"});
+        $("#newCheck").jeCheck({
+            jename:"chunk",
+            attrName:[false,"勾选"], 
+            itemfun: function(elem,bool) {
+                console.log(bool)
+                //console.log(elem.prop('checked'))
+            },
+            success:function(elem){
+                jeui.chunkSelect(elem,'#gocheck','active')
+                
+            }
+        });
+        $("#newCheck").jeCheck({jename:"switch"});
+    });
+</script>
+</body>
+</html>
