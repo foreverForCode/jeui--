@@ -54,7 +54,7 @@
 .tabpanel .tab-btndisable{opacity:0.4;-moz-opacity:0.4;filter:alpha(opacity = 40);color:#7D7D7D;cursor:default;}
 .tabpanel .tab-itemwrap{overflow:hidden;position: absolute;top:0;left:20px;right:20px;bottom:0;}
 .tabpanel .tab-itemwrap-scroll{margin-left:21px;padding-right:2px;}
-.tabpanel .tab-itemmove{margin:0;padding:0;position: absolute;left: 0}
+.tabpanel .tab-itemmove{margin:0;padding:0;position: absolute;left: 0;width:1000000px;}
 .tabpanel .tab-itemmove li{min-width: 65px; padding:0 22px 0 16px;float:left;list-style:none;height:40px;line-height: 40px;display:inline;position:relative;font-size: 14px;color: #666;text-align: center;vertical-align: middle;cursor: default;border-right: 1px solid #e2e2e2;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
 .tabpanel .tab-itemmove li.active{float:left;list-style:none;color: #5eb95e;vertical-align: middle;background:#ffffff;}
 .tabpanel .tab-itemmove li.active:after{content: "";position: absolute;left: 0;right: 0;bottom: 0;border-top:3px solid #5eb95e;}
